@@ -1,66 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <meta charset="utf-8">
+    <title>Introduction to CSS Lab</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
+
   <body>
-    <header>
-      <!-- logo -->
-      <h1>Exceptional Realty Group</h1>
 
-      <nav>
-        <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
-      </nav>
-    </header>
+    <div>
+      <h1 id='main-header'>How Does Writing CSS Differ From Writing HTML?</h1>
+      <p>As we write CSS, these are the types of questions we might ask ourselves:</p>
 
-    <section id="featured-property">
-      <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-        <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
-      </figure>
+      <ul>
+        <li class='perspective-questions'>Should the layout of the text be in a single or double column?</li>
+        <li class='perspective-questions'>Should we use a different font color for the header?</li>
+        <li class='perspective-questions'>How should the same content appear differently on a desktop versus a mobile device?</li>
+      </ul>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
-    </section>
+      <p>All of the questions above deal with the aesthetic considerations of the page. These are the concerns of the presentation layer (CSS).</p>
+      <p>As a contrast, let's consider the types of questions we might ask ourselves as we write HTML:</p>
 
-    <section id="details">
-      <div>
-        <h3>Contact</h3>
-        <p>
-          <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
-          +1 710 555 1234<br>
-          @fakeRealty
-        </p>
-      </div>
-      
-      <div>
-        <h3>Correspondence</h3>
-        <p>
-          Exceptional Realty<br>
-          P.O. Box 5555<br>
-          Brooklyn, NY 11201
-        </p>
-      </div>
+      <ul>
+        <li class='perspective-questions'>Does the order of items within a list matter? Should it be a numbered list?</li>
+        <li class='perspective-questions'>Should we wrap a list of links inside a navigation tag?</li>
+        <li class='perspective-questions'>Is this the most important header in the whole HTML document?</li>
+      </ul>
 
-      <div>
-        <h3>Links</h3>
-        <p>
-          <a href="#" target="_blank">Home Restoration</a><br>
-          <a href="#" target="_blank">Affordable Mortgages</a><br>
-          <a href="#" target="_blank">Professional Moving Crew</a>
-        </p>
-      </div>
+      <p>The last few questions deal with structure, hierarchy, and meaning. These are the concerns of the content layer (HTML).</p>
+      <p>When we write CSS, we focus on aesthetic and display considerations. When we write HTML, we focus on structure, hierarchy, and meaning.</p>
+    </div>
 
-      <div>
-        <h3>Follow</h3>
-        <p>
-          <a href="#" target="_blank">YouTube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
-          <a href="#" target="_blank">Twitter</a>
-        </p>
-      </div>
-    </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
